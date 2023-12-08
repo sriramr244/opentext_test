@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: dre-random
+Version: 0.0.0
+Summary: A toy random generator project
+Home-page: https://github.com/sriram/dre_random
+Author: sriram
+Author-email: sriramr244@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/sriram/dre_random/issues
+Description: A toy random generator project
+Platform: UNKNOWN

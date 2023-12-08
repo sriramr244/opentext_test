@@ -1,0 +1,206 @@
+[2023-12-08 11:44:46,793: INFO: schemas: Resource 'XMLSchema.xsd' is already loaded]
+[2023-12-08 11:45:40,484: INFO: schemas: Resource 'XMLSchema.xsd' is already loaded]
+[2023-12-08 12:41:05,557: INFO: schemas: Resource 'XMLSchema.xsd' is already loaded]
+[2023-12-08 12:41:25,358: INFO: schemas: Resource 'XMLSchema.xsd' is already loaded]
+[2023-12-08 12:41:25,379: INFO: main: >>>>>>Job1 started<<<<<<]
+[2023-12-08 12:41:25,518: INFO: main: >>>>>>Job1 validated<<<<<<]
+[2023-12-08 12:41:25,518: ERROR: main: 'chunk_size']
+Traceback (most recent call last):
+  File "main.py", line 39, in main
+    chunk_size=params["chunk_size"],
+KeyError: 'chunk_size'
+[2023-12-08 12:41:25,519: INFO: main: >>>>>>Job2 started<<<<<<]
+[2023-12-08 12:41:25,520: ERROR: main: module 'xmlschema.exceptions' has no attribute 'XMLSchemaError']
+Traceback (most recent call last):
+  File "/Users/sriram.ranganathan99/random_number_system/src/dre_random/utils/common.py", line 55, in import_and_validate_xml
+    tree = ET.parse(xml_file_path)
+  File "/opt/anaconda3/lib/python3.8/xml/etree/ElementTree.py", line 1202, in parse
+    tree.parse(source, parser)
+  File "/opt/anaconda3/lib/python3.8/xml/etree/ElementTree.py", line 584, in parse
+    source = open(source, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'build_list.xml'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 22, in main
+    job_data = import_and_validate_xml(
+  File "/Users/sriram.ranganathan99/random_number_system/src/dre_random/utils/common.py", line 67, in import_and_validate_xml
+    except xmlschema.exceptions.XMLSchemaError as e:
+AttributeError: module 'xmlschema.exceptions' has no attribute 'XMLSchemaError'
+[2023-12-08 12:41:25,521: ERROR: main: 'chunk_size']
+Traceback (most recent call last):
+  File "main.py", line 39, in main
+    chunk_size=params["chunk_size"],
+KeyError: 'chunk_size'
+[2023-12-08 12:42:15,509: INFO: schemas: Resource 'XMLSchema.xsd' is already loaded]
+[2023-12-08 12:42:15,528: INFO: main: >>>>>>Job1 started<<<<<<]
+[2023-12-08 12:42:15,528: ERROR: main: module 'xmlschema.exceptions' has no attribute 'XMLSchemaError']
+Traceback (most recent call last):
+  File "/Users/sriram.ranganathan99/random_number_system/src/dre_random/utils/common.py", line 55, in import_and_validate_xml
+    tree = ET.parse(xml_file_path)
+  File "/opt/anaconda3/lib/python3.8/xml/etree/ElementTree.py", line 1202, in parse
+    tree.parse(source, parser)
+  File "/opt/anaconda3/lib/python3.8/xml/etree/ElementTree.py", line 584, in parse
+    source = open(source, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'build_list.xml'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 23, in main
+    job_data = import_and_validate_xml(
+  File "/Users/sriram.ranganathan99/random_number_system/src/dre_random/utils/common.py", line 67, in import_and_validate_xml
+    except xmlschema.exceptions.XMLSchemaError as e:
+AttributeError: module 'xmlschema.exceptions' has no attribute 'XMLSchemaError'
+[2023-12-08 12:42:40,179: INFO: schemas: Resource 'XMLSchema.xsd' is already loaded]
+[2023-12-08 12:42:40,204: INFO: main: >>>>>>Job1 started<<<<<<]
+[2023-12-08 12:42:40,204: ERROR: main: module 'xmlschema.exceptions' has no attribute 'XMLSchemaError']
+Traceback (most recent call last):
+  File "/Users/sriram.ranganathan99/random_number_system/src/dre_random/utils/common.py", line 55, in import_and_validate_xml
+    tree = ET.parse(xml_file_path)
+  File "/opt/anaconda3/lib/python3.8/xml/etree/ElementTree.py", line 1202, in parse
+    tree.parse(source, parser)
+  File "/opt/anaconda3/lib/python3.8/xml/etree/ElementTree.py", line 584, in parse
+    source = open(source, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'build_list.xml'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 24, in main
+    job_data = import_and_validate_xml(
+  File "/Users/sriram.ranganathan99/random_number_system/src/dre_random/utils/common.py", line 67, in import_and_validate_xml
+    except xmlschema.exceptions.XMLSchemaError as e:
+AttributeError: module 'xmlschema.exceptions' has no attribute 'XMLSchemaError'
+[2023-12-08 12:43:50,018: INFO: schemas: Resource 'XMLSchema.xsd' is already loaded]
+[2023-12-08 12:43:50,040: INFO: main: >>>>>>Job1 started<<<<<<]
+[2023-12-08 12:43:50,184: INFO: main: >>>>>>Job1 validated<<<<<<]
+[2023-12-08 12:43:50,184: ERROR: main: 'chunk_size']
+Traceback (most recent call last):
+  File "main.py", line 44, in main
+    chunk_size=params["chunk_size"],
+KeyError: 'chunk_size'
+[2023-12-08 12:44:55,967: INFO: schemas: Resource 'XMLSchema.xsd' is already loaded]
+[2023-12-08 12:44:55,989: INFO: main: >>>>>>Job1 started<<<<<<]
+[2023-12-08 12:44:56,130: INFO: main: >>>>>>Job1 validated<<<<<<]
+[2023-12-08 12:44:56,130: ERROR: main: 'chunk_size']
+Traceback (most recent call last):
+  File "main.py", line 46, in main
+    chunk_size=params["chunk_size"],
+KeyError: 'chunk_size'
+[2023-12-08 12:45:09,973: INFO: schemas: Resource 'XMLSchema.xsd' is already loaded]
+[2023-12-08 12:45:09,992: INFO: main: >>>>>>Job1 started<<<<<<]
+[2023-12-08 12:45:10,134: INFO: main: >>>>>>Job1 validated<<<<<<]
+[2023-12-08 12:45:10,148: INFO: main: >>>>>>Job1 list of random numbers generated<<<<<<]
+[2023-12-08 12:50:32,701: INFO: schemas: Resource 'XMLSchema.xsd' is already loaded]
+[2023-12-08 12:50:32,723: INFO: main: >>>>>>Job1 started<<<<<<]
+[2023-12-08 12:50:32,865: ERROR: main: module 'xmlschema.exceptions' has no attribute 'XMLSchemaError']
+Traceback (most recent call last):
+  File "/Users/sriram.ranganathan99/random_number_system/src/dre_random/utils/common.py", line 61, in import_and_validate_xml
+    raise ValueError(
+ValueError: XML file is not valid according to the specified schema.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 29, in main
+    job_data = import_and_validate_xml(
+  File "/Users/sriram.ranganathan99/random_number_system/src/dre_random/utils/common.py", line 67, in import_and_validate_xml
+    except xmlschema.exceptions.XMLSchemaError as e:
+AttributeError: module 'xmlschema.exceptions' has no attribute 'XMLSchemaError'
+[2023-12-08 12:51:35,048: INFO: schemas: Resource 'XMLSchema.xsd' is already loaded]
+[2023-12-08 12:51:35,067: INFO: main: >>>>>>Job1 started<<<<<<]
+[2023-12-08 12:51:35,210: ERROR: main: module 'xmlschema.exceptions' has no attribute 'XMLSchemaError']
+Traceback (most recent call last):
+  File "/Users/sriram.ranganathan99/random_number_system/src/dre_random/utils/common.py", line 61, in import_and_validate_xml
+    raise ValueError(
+ValueError: XML file is not valid according to the specified schema.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 29, in main
+    job_data = import_and_validate_xml(
+  File "/Users/sriram.ranganathan99/random_number_system/src/dre_random/utils/common.py", line 67, in import_and_validate_xml
+    except xmlschema.exceptions.XMLSchemaError as e:
+AttributeError: module 'xmlschema.exceptions' has no attribute 'XMLSchemaError'
+[2023-12-08 12:53:18,385: INFO: schemas: Resource 'XMLSchema.xsd' is already loaded]
+[2023-12-08 12:53:18,410: INFO: main: >>>>>>Job1 started<<<<<<]
+[2023-12-08 12:53:18,549: ERROR: main: module 'xmlschema.exceptions' has no attribute 'XMLSchemaError']
+Traceback (most recent call last):
+  File "/Users/sriram.ranganathan99/random_number_system/src/dre_random/utils/common.py", line 61, in import_and_validate_xml
+    raise ValueError(
+ValueError: XML file is not valid according to the specified schema.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 29, in main
+    job_data = import_and_validate_xml(
+  File "/Users/sriram.ranganathan99/random_number_system/src/dre_random/utils/common.py", line 67, in import_and_validate_xml
+    except xmlschema.exceptions.XMLSchemaError as e:
+AttributeError: module 'xmlschema.exceptions' has no attribute 'XMLSchemaError'
+[2023-12-08 12:53:36,743: INFO: schemas: Resource 'XMLSchema.xsd' is already loaded]
+[2023-12-08 12:53:36,763: INFO: main: >>>>>>Job1 started<<<<<<]
+[2023-12-08 12:53:36,905: INFO: main: >>>>>>Job1 validated<<<<<<]
+[2023-12-08 12:53:36,962: INFO: main: >>>>>>Job1 interval created<<<<<<]
+[2023-12-08 12:53:36,962: INFO: main: >>>>>>Job2 started<<<<<<]
+[2023-12-08 12:53:36,970: INFO: main: >>>>>>Job2 validated<<<<<<]
+[2023-12-08 12:53:36,972: INFO: main: >>>>>>Job2 list of random numbers generated<<<<<<]
+[2023-12-08 12:55:24,426: INFO: schemas: Resource 'XMLSchema.xsd' is already loaded]
+[2023-12-08 12:55:24,447: INFO: main: >>>>>>Job1 started<<<<<<]
+[2023-12-08 12:55:24,591: INFO: main: >>>>>>Job1 validated<<<<<<]
+[2023-12-08 12:55:24,646: INFO: main: >>>>>>Job1 interval created<<<<<<]
+[2023-12-08 12:55:24,646: INFO: main: >>>>>>Job2 started<<<<<<]
+[2023-12-08 12:55:24,653: INFO: main: >>>>>>Job2 validated<<<<<<]
+[2023-12-08 12:55:24,670: INFO: main: >>>>>>Job2 list of random numbers generated<<<<<<]
+[2023-12-08 12:55:24,670: INFO: main: >>>>>> Total 3 Jobs completed <<<<<<]
+[2023-12-08 14:26:30,256: INFO: schemas: Resource 'XMLSchema.xsd' is already loaded]
+[2023-12-08 14:27:29,697: INFO: schemas: Resource 'XMLSchema.xsd' is already loaded]
+[2023-12-08 14:27:29,997: INFO: main: >>>>>> Total 0 Jobs completed <<<<<<]
+[2023-12-08 14:27:53,711: INFO: schemas: Resource 'XMLSchema.xsd' is already loaded]
+[2023-12-08 14:27:53,731: INFO: main: >>>>>> Total 0 Jobs completed <<<<<<]
+[2023-12-08 14:28:28,201: INFO: schemas: Resource 'XMLSchema.xsd' is already loaded]
+[2023-12-08 14:28:28,221: INFO: main: >>>>>>Job1 started<<<<<<]
+[2023-12-08 14:28:28,360: INFO: main: >>>>>>Job1 validated<<<<<<]
+[2023-12-08 14:28:28,383: ERROR: main: create_and_store_intervals() got an unexpected keyword argument 'input_file']
+Traceback (most recent call last):
+  File "main.py", line 55, in main
+    create_and_store_intervals(
+  File "/Users/sriram.ranganathan99/random_number_system/venv/random_numbers/lib/python3.8/site-packages/memory_profiler.py", line 1188, in wrapper
+    val = prof(func)(*args, **kwargs)
+  File "/Users/sriram.ranganathan99/random_number_system/venv/random_numbers/lib/python3.8/site-packages/memory_profiler.py", line 761, in f
+    return func(*args, **kwds)
+TypeError: create_and_store_intervals() got an unexpected keyword argument 'input_file'
+[2023-12-08 14:28:28,384: INFO: main: >>>>>>Job2 started<<<<<<]
+[2023-12-08 14:28:28,391: INFO: main: >>>>>>Job2 validated<<<<<<]
+[2023-12-08 14:28:28,406: INFO: main: >>>>>>Job2 list of random numbers generated<<<<<<]
+[2023-12-08 14:28:28,407: INFO: main: >>>>>> Total 2 Jobs completed <<<<<<]
+[2023-12-08 14:30:08,349: INFO: schemas: Resource 'XMLSchema.xsd' is already loaded]
+[2023-12-08 14:30:08,369: INFO: main: >>>>>>Job1 started<<<<<<]
+[2023-12-08 14:30:08,508: INFO: main: >>>>>>Job1 validated<<<<<<]
+[2023-12-08 14:30:08,550: INFO: main: >>>>>>Job1 interval created<<<<<<]
+[2023-12-08 14:30:08,550: INFO: main: >>>>>>Job2 started<<<<<<]
+[2023-12-08 14:30:08,557: INFO: main: >>>>>>Job2 validated<<<<<<]
+[2023-12-08 14:30:08,559: INFO: main: >>>>>>Job2 list of random numbers generated<<<<<<]
+[2023-12-08 14:30:08,559: INFO: main: >>>>>> Total 2 Jobs completed <<<<<<]
+[2023-12-08 14:35:57,129: INFO: schemas: Resource 'XMLSchema.xsd' is already loaded]
+[2023-12-08 14:35:57,150: INFO: main: >>>>>>Job1 started<<<<<<]
+[2023-12-08 14:35:57,292: INFO: main: >>>>>>Job1 validated<<<<<<]
+[2023-12-08 14:35:57,333: INFO: main: >>>>>>Job1 interval created<<<<<<]
+[2023-12-08 14:35:57,333: INFO: main: >>>>>> Total 1 Jobs completed <<<<<<]
+[2023-12-08 14:37:38,636: INFO: schemas: Resource 'XMLSchema.xsd' is already loaded]
+[2023-12-08 14:37:38,658: INFO: main: >>>>>>Job1 started<<<<<<]
+[2023-12-08 14:37:38,796: INFO: main: >>>>>>Job1 validated<<<<<<]
+[2023-12-08 14:37:38,796: ERROR: main: gen_and_store_random_numbers() got an unexpected keyword argument 'file_name']
+Traceback (most recent call last):
+  File "main.py", line 41, in main
+    gen_and_store_random_numbers(
+TypeError: gen_and_store_random_numbers() got an unexpected keyword argument 'file_name'
+[2023-12-08 14:37:38,797: INFO: main: >>>>>> Total 1 Jobs completed <<<<<<]
+[2023-12-08 14:38:44,242: INFO: schemas: Resource 'XMLSchema.xsd' is already loaded]
+[2023-12-08 14:38:44,263: INFO: main: >>>>>>Job1 started<<<<<<]
+[2023-12-08 14:38:44,401: INFO: main: >>>>>>Job1 validated<<<<<<]
+[2023-12-08 14:38:44,413: INFO: main: >>>>>>Job1 list of random numbers generated<<<<<<]
+[2023-12-08 14:38:44,413: INFO: main: >>>>>> Total 1 Jobs completed <<<<<<]

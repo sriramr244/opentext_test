@@ -1,0 +1,2 @@
+CHUNK_SIZE: 100000
+SCHEMA_NAME: "job_schema.xsd"

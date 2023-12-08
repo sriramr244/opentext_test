@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+targetNamespace="http://www.opentext.org/random_numbers" 
+xmlns:tns="http://www.opentext.org/random_numbers" 
+elementFormDefault="qualified">
+
+
+	<simpleType name="string10chars">
+		<restriction base = "string">
+			<maxLength value="20"/>
+		</restriction>
+	</simpleType>
+	
+	
+	<simpleType name="job_type">
+		<restriction base = "string">
+			<enumeration value="build_interval"/>
+			<enumeration value= "build_list"/>
+		</restriction>
+	</simpleType>
+
+
+	  
+	  
+	
+	  
+	  <complexType name="interval_desc">
+	    <sequence>
+	      <element name="interval_name" type="tns:string10chars"/>
+	      <element name="list_name" type="tns:string10chars"/>
+	      <element name="min" type="decimal"/>
+		  <element name="max" type="decimal"/>
+	    </sequence>
+	  </complexType>
+	
+
+	  <complexType name="list_desc">
+	    <sequence>
+	      <element name="list_name" type="tns:string10chars"/>
+	      <element name="list_length" type="int"/>
+	      <element name="seed" type="int"/>
+	    </sequence>
+	    <attribute name="id" type="integer"/>
+	  </complexType>
+	
+
+	  <element name="job">
+	    <complexType>
+	      <choice>
+	        <element name="build_list" type="tns:list_desc" minOccurs="1" maxOccurs="1" />
+	        <element name="build_interval" type="tns:interval_desc" minOccurs="1" maxOccurs="1" />
+	      </choice>
+	      <attribute name= "job_type" type = "tns:job_type"/>
+	    </complexType>
+	  </element>
+	  
+
+</schema>

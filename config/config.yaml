@@ -1,0 +1,15 @@
+IO_root: data
+
+
+job_input:
+  root_dir: data/input
+
+schema:
+  root_dir: data/schema
+
+
+
+output_data:
+  root_dir: data/output
+
+
