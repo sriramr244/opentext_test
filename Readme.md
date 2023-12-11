@@ -24,11 +24,11 @@ Utils Folder: Houses common utility functions like reading YAML files and conver
 Configuration and Control:
 
 - XML and XSD: Uses XML files for input job descriptions and validates them against a schema defined in an XSD file located in the data folder.
-Job Controller: A central controller processes XML jobs, ensuring they adhere to the schema before executing them.
+- Job Controller: A central controller processes XML jobs, ensuring they adhere to the schema before executing them.
 
 ### Testing and Automation
-Unit Testing: Implemented for random number generation functionality, with the plan to extend it to other parts of the project.
-GitHub Workflows: Utilizes continuous integration to test all pushes to the repository.
+- Unit Testing: Implemented for random number generation functionality, with the plan to extend it to other parts of the project.
+- GitHub Workflows: Utilizes continuous integration to test all pushes to the repository.
 
 ## Extensibility and Future Improvements
 - Configuration Management: Future scope includes developing a configuration manager to handle config.yaml files more efficiently.
@@ -39,11 +39,13 @@ GitHub Workflows: Utilizes continuous integration to test all pushes to the repo
 - Potential Use of MarkLogic: Utilizing MarkLogic with Xquery for efficient Extract and Transform tasks, facilitating queries based on job ID and number intervals.
 
 
+
 ### Unexplored Areas:
 - OOP Principles: The project currently doesn't utilize Object-Oriented Programming, which can be explored for better structure.
 - Storage Enhancements: Current storage in directories can be evolved to use NoSQL databases for parallel processing and efficient querying.
 - Type hinting validation
 - Containerization for consitency throughout the operating systems
+- Time based scheduling: Use of cron to run this job periodically
 
 
 ## Getting started

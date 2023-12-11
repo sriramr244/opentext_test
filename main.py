@@ -14,7 +14,7 @@ def main():
 
     i = 0
     while True:
-        i += 1
+        has_job_completed = True
         if len(os.listdir(config["job_input"]["root_dir"])) <= 0:
             logger.info(f">>>>>> Total {i-1} Jobs completed <<<<<<")
             break
@@ -23,7 +23,9 @@ def main():
             Path(os.listdir(config["job_input"]["root_dir"])[0]),
         )
         try:
-            logger.info(f">>>>>>Job{i} started<<<<<<")
+            logger.info(
+                f">>>>>>Job {Path(os.listdir(config['job_input']['root_dir'])[0].split('.')[0])} started<<<<<<"
+            )
             job_data = parse_xml_to_dict(
                 import_and_validate_xml(
                     xml_file_path=xml_file_path,
@@ -35,7 +37,7 @@ def main():
             logger.info(f">>>>>>Job{i} validated<<<<<<")
         except Exception as e:
             logger.exception(e)
-            exit()
+            has_job_completed = False
         if job_data["job_type"] == "build_list":
             try:
                 gen_and_store_random_numbers(
@@ -46,10 +48,10 @@ def main():
                     ),
                     chunk_size=params["CHUNK_SIZE"],
                 )
-
                 logger.info(f">>>>>>Job{i} list of random numbers generated<<<<<<")
             except Exception as e:
                 logger.exception(e)
+                has_job_completed = False
 
         else:
             try:
@@ -66,7 +68,10 @@ def main():
                 logger.info(f">>>>>>Job{i} interval created<<<<<<")
             except Exception as e:
                 logger.exception(e)
-        os.remove(xml_file_path)
+                has_job_completed = False
+        if has_job_completed:
+            i += 1
+            os.remove(xml_file_path)
 
 
 if __name__ == "__main__":

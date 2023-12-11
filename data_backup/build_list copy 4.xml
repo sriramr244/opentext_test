@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:job xmlns:tns="http://www.opentext.org/random_numbers" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opentext.org/random_numbers job_schema.xsd ">
+  <tns:build_list>
+    <tns:list_name>test</tns:list_name>
+    <tns:list_length>10</tns:list_length>
+    <tns:seed>12345678</tns:seed>
+  </tns:build_list>
+</tns:job>
